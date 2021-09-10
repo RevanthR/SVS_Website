@@ -2,8 +2,11 @@
     padding: 0;
     margin:0;
     font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
 .navbar{
     padding: 10px 180px;
     background-color: rgba(0, 0, 0,0.8) !important;
@@ -58,7 +61,7 @@
 }
 
 .background-main{
-    background-image: url(../images/main.JPG);
+    background-image: url(../images/test.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
