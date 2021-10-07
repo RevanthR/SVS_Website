@@ -87,6 +87,7 @@ a{
     color: #eb6e34;
     font-weight: bolder;
 }
+
 .who button:hover{
     background-color: #eb6e34;
     color: rgb(1, 19, 43)
@@ -307,4 +308,15 @@ footer .col-lg-2{
 }
 .blue{
     color: rgb(1, 19, 43);
+}
+#map{
+    display: block;
+    margin: 120px auto;
+    width: 900px;
+    height:500px;
+}
+.Map{
+    display: block;
+    height:90vh;
+    justify-content: center;
 }
