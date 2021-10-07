@@ -61,7 +61,7 @@ a{
 }
 
 .background-main{
-    background-image: url(../images/test.jpeg);
+    background-image: url(../images/SVS_Main_Bg.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,6 +211,7 @@ a{
 }
 .customers{
     padding: 40px 40px;
+    width: 100%;
     
 }
 .customers h2,.contact-us h2{
@@ -224,10 +225,8 @@ a{
 }
 
 .customers .row{
-    margin:20px auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .customers .row img{
     height: auto;
