@@ -57,7 +57,7 @@ a{
     line-height: 2;
     text-align: center;
     padding:40px 80px;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .background-main{
@@ -71,6 +71,10 @@ a{
     top:0px;
     left: 0px;
     width:100%;
+}
+.bold-text{
+    font-weight: 900;
+    color: #eb6e34;
 }
 .who button{
     padding: 8px 25px;
