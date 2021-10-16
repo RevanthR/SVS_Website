@@ -12,4 +12,6 @@ function initMap() {
       map: map,
     });
 }
+
+initMap();
 //Google Maps Script Above
