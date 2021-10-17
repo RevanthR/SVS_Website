@@ -166,53 +166,40 @@ a{
     margin:0px;
 }
 .product-wrapper{
+    margin-top:40px;
+    height: 250px;
+}
+.product-wrapper img{
     widows: 250px;
     height: 250px;
-    margin: 0px 10px;
+    margin: 0px 20px;
+    overflow: hidden;
     background-color: rgba(1, 19, 43,1) ;
 }
 
-
 /* transition */
-
-.product-wrapper .image {
-    display: block;
-    width: 250px;
-    height: 250px;
-    background-color: rgba(1, 19, 43,0.5);
-}
-  
-.product-wrapper .overlay {
-    position: absolute;
-    bottom: 300px;
-    left: 10;
-    top: 0;
-    right: 10;
-    background-color: rgb(1, 19, 43);
-    color: rgb(1, 19, 43);
+.product-wrapper .overlay{
+    position: relative;
+    top: -250px;
     overflow: hidden;
-    width: 250px;
-    height:0;
-    transition: .5s ease;
-}
-
-.product-wrapper:hover .overlay {
-    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width:250px;
     height: 250px;
-}
-  
-.text {
-    color: #eb6e34;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0px 20px;
+    display: flex;
+    font-size: 25px;
     text-align: center;
 }
-
+.product-wrapper .text{
+    color:white;
+    margin:auto;
+    display: block;
+}
+.product-wrapper .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 28px;
+    transition-duration: 0.5s;
+}
 /* customers page */
 
 .customers{
@@ -323,6 +310,12 @@ footer .col-lg-2{
     text-transform: uppercase;
     color: white;
     border-right: 2px solid rgb(1, 19, 43);
+}
+footer .col-lg-2 a{
+    display: block;
+    margin-bottom:15px;
+    text-decoration: none;
+    color:white;
 }
 .blue{
     color: rgb(1, 19, 43);
