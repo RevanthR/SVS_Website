@@ -260,7 +260,12 @@ a{
     font-size: 60px;
     margin: 0px;
 }
-
+#map{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
 .email{
     display: flex;
     align-items: center;
@@ -320,9 +325,4 @@ footer .col-lg-2 a{
 .blue{
     color: rgb(1, 19, 43);
 }
-#map{
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-}
+
