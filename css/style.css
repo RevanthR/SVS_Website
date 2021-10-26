@@ -21,6 +21,9 @@ a{
     z-index: 20;
     right: 0;
 }
+.non-home{
+    background-color : rgba(0,0,0) !important
+}
 
 /* Navbar CSS */
 .active{
@@ -326,3 +329,8 @@ footer .col-lg-2 a{
     color: rgb(1, 19, 43);
 }
 
+/* product description pages */
+
+.product-desc{
+    min-height:80vh;
+}
