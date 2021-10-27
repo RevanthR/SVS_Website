@@ -50,10 +50,3 @@ google.maps.event.addListener(marker, 'click', (function (marker, count) {
     })(marker, count));
   }
 };
-
-function hashchanged(){
-  var hash = location.hash.replace( /^#/, '' );
-  $('#nav-profile').tab('show');
-}
-
-window.addEventListener("hashchange", hashchanged, false);

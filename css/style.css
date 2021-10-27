@@ -387,19 +387,20 @@ footer .col-lg-2 a{
 .all-products .nav-link{
     border-radius: 0px ;
     background: rgba(1, 19, 43,1);
-    color: #eb6e34;
+    color: white;
 }
 .all-products .nav-link.active{
     color: black !important;
-    background: #eb6e34;
+    background: rgb(60, 142, 250);
 }
 .all-products .mainhead{
     font-size: 50px;
     margin: 50px 0px;
     font-weight: bolder;
+    color: rgb(60, 142, 250);
     text-align: center;
     padding-bottom: 50px;
-    border-bottom:5px solid rgb(1, 19, 43);
+    border-bottom:5px solid #111010;
 }
 .all-products .background-img{
     height: 200px;
