@@ -22,7 +22,8 @@ a{
     right: 0;
 }
 .non-home{
-    background-color : rgb(6, 0, 26) !important
+    background-color : rgb(6, 0, 26) !important;
+    /* position: fixed; */
 }
 
 /* Navbar CSS */
@@ -300,17 +301,19 @@ footer{
     border: 0px;
 }
 footer .row{
-    padding:50px 70px;
+    padding:50px 40px;
     margin: 0px;
 }
 footer .col-lg-10{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    padding-left: 60px;
 }
 footer .col-lg-10 p{
-    line-height: 30px;
-    margin-right:20px;
+    line-height: 28px;
+    margin: 20px 10px;
+    margin-top: 0px;
     font-size: 16px;
     color: white;
 }
@@ -332,13 +335,12 @@ footer .col-lg-2 a{
 /* product description pages */
 
 .product-desc{
-    padding-top:12vh;
+    padding-top: 50px;
     min-height:80vh;
-
 }
 
 .product-desc .row{
-    margin-left: 30vh;
+    margin:0px;
     padding: 40px 60px;
     padding-right: 30px;
 }
@@ -347,22 +349,22 @@ footer .col-lg-2 a{
     font-size: 40px;
     margin-bottom: 60px;
     font-weight: bolder;
-    color: #eb6e34
+    color: #000000;
 }
 .product-desc hr{
     margin-bottom: 70px;
     color: gray;
 }
 .product-desc .col-lg-4{
-    margin-right: 80px;
+    margin-right: 20px;
 }
 .product-desc .col-lg-4 img{
-    height:400px;
-    width:400px;
+    height:40vh;
+    width:40vh;
     margin-bottom: 50px;
-    border-radius: 10px;
+    border-radius: 5px;
     /* border: 1px solid black; */
-    box-shadow: 0px 0px 3px 0px;
+    box-shadow: 0px 0px 3px 0px gray;
 }
 .product-desc .data{
     margin-bottom: 30px;
@@ -375,4 +377,34 @@ footer .col-lg-2 a{
 
 .product-desc .col-lg-6 p{
     color: gray;
+}
+
+.all-products{
+    min-height: 80vh;
+    padding:12vh;
+}
+
+.all-products .nav-link{
+    border-radius: 0px ;
+    background: rgba(1, 19, 43,1);
+    color: #eb6e34;
+}
+.all-products .nav-link.active{
+    color: black !important;
+    background: #eb6e34;
+}
+.all-products .mainhead{
+    font-size: 50px;
+    margin: 50px 0px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom:5px solid rgb(1, 19, 43);
+}
+.all-products .background-img{
+    height: 200px;
+    position: absolute;
+    margin:80vh;
+    opacity: 0.2;
+    z-index: -500temp
 }
