@@ -311,7 +311,7 @@ footer .col-lg-10{
     padding-left: 60px;
 }
 footer .col-lg-10 p{
-    width: 15em;
+    width: 14em;
 }
 footer .col-lg-10 p{
     line-height: 28px;
@@ -383,6 +383,7 @@ footer .col-lg-2 a{
 }
 
 .all-products{
+    font-family: 'Roboto Condensed', sans-serif;
     min-height: 80vh;
     padding:12vh;
 }
