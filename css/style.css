@@ -400,10 +400,11 @@ footer .col-lg-2 a{
     font-size: 50px;
     margin: 50px 0px;
     font-weight: bolder;
-    color: rgb(60, 142, 250);
+    color: rgb(0,0,0);
     text-align: center;
-    padding-bottom: 50px;
-    border-bottom:3px solid #111010;
+    padding: 30px;
+    background-color: rgb(173, 188, 211);
+    border-bottom:10px solid #0c86f8;
 }
 .all-products .background-img{
     height: 200px;
@@ -411,4 +412,11 @@ footer .col-lg-2 a{
     margin:80vh;
     opacity: 0.1;
     z-index: -500temp
+}
+
+.all-products .nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs button{
+    margin-right: 5px;
 }
