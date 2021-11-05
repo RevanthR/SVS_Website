@@ -412,7 +412,7 @@ footer .col-lg-2 a{
     position: absolute;
     margin:80vh;
     opacity: 0.1;
-    z-index: -500temp
+    z-index: -500;
 }
 
 .all-products .nav-tabs{
@@ -420,4 +420,13 @@ footer .col-lg-2 a{
 }
 .nav-tabs button{
     margin-right: 5px;
+}
+
+.product-desc .head{
+    font-size: 30px !important;
+    padding-bottom: 20px; 
+}
+.product-desc .head2{
+    color: #000000;
+    font-weight: 500;
 }
