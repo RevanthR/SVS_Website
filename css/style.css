@@ -395,7 +395,7 @@ footer .col-lg-2 a{
 }
 .all-products .nav-link.active{
     color: black !important;
-    background: rgb(60, 142, 250);
+    background: #eb6e34;
 }
 .all-products .mainhead{
     font-size: 50px;
@@ -405,12 +405,12 @@ footer .col-lg-2 a{
     text-align: center;
     padding: 30px;
     background-color: rgb(173, 188, 211);
-    border-bottom:10px solid #0c86f8;
+    border-bottom:10px solid #010f3d;
 }
 .all-products .background-img{
     height: 200px;
     position: absolute;
-    margin:80vh;
+    margin:60vh;
     opacity: 0.1;
     z-index: -500;
 }
