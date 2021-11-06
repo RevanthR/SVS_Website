@@ -447,7 +447,9 @@ footer .col-lg-2 a{
 }
 
 .background-main{
-    background-image: none;
+    background-image: url(../images/Product_Icons/tubes.jpeg);
+    background-size: cover;
+    width: 100%;
 }
 .hero-carousel{
     padding: 25vh 5vh;
@@ -525,8 +527,8 @@ footer .col-lg-10{
     align-items: flex-start;
 }
 .product-desc .col-lg-4 img{
-    height: 17vh;
-    width: 17vh;
+    height: 15vh;
+    width: 15vh;
 }
 .nav-tabs .nav-link{
     margin: 10px;
