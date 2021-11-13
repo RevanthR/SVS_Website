@@ -16,7 +16,7 @@ a{
     padding: 10px 180px;
     background-color: rgba(0, 0, 0,0) !important;
     border-bottom: 0px solid rgb(196, 187, 187);
-    position: absolute;
+    position:absolute;
     left:0;
     z-index: 20;
     right: 0;
